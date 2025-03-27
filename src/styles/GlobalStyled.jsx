@@ -36,6 +36,8 @@ const GlobalStyled = createGlobalStyle`
     background-color: white;
   width: 100%;
   max-width: 375px;
+   justify-content: center;
+     overflow-y: auto;
 }
 
     margin: 0 auto;

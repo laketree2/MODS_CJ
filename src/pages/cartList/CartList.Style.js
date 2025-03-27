@@ -134,13 +134,25 @@ export const SItemImageBox = styled.div`
   }
 `;
 
+export const Wrap = styled.div`
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding-bottom: 120px; /* 하단 고정 푸터 영역 확보 */
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  max-width: 375px;
+`;
+
 export const SFooter = styled.div`
   position: fixed;
   bottom: 0;
   width: 100%;
   max-width: 375px;
-  left: 50%;
-  transform: translateX(-50%);
+  // left: 50%;
+  // transform: translateX(-50%);
   background: #fff;
   border-top: 1px solid #eee;
   padding: 16px;

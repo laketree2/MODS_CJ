@@ -14,7 +14,7 @@ const ContentContainer = styled.div`
   background-color: #ffffff;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: calc(100vh - 90px);
+  height: calc(100vh);
   -webkit-overflow-scrolling: touch;
 `;
 
