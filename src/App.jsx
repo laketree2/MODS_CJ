@@ -3,6 +3,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import CartList from "./pages/cartList/CartList";
+import StoreList from "./pages/StoreList";
+import MenuList from "./pages/MenuList";
+import OptionList from "./pages/OptionList";
 
 const Wrapper = styled.div`
   position: relative;
@@ -25,6 +28,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cartlist" element={<CartList />} />
+          <Route path="/storelist" element={<StoreList />} />
+          <Route path="/menulist" element={<MenuList />} />
+          <Route path="/optionlist" element={<OptionList />} />
         </Routes>
       </ContentContainer>
     </Wrapper>

@@ -20,7 +20,7 @@ function Banner() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/cartlist");
+    navigate("/storelist");
   };
 
   return (
